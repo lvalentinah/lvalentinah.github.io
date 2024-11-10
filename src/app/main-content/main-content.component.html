@@ -1,0 +1,21 @@
+<section class="main-content">
+  <h1>ATENCIÓN FARMACÉUTICA <br> "REY LEÓNIDAS I DE ESPARTA"</h1>
+  <h2 class="font">Conoce la impresión diagnóstica</h2>
+  <div class="image-grid">
+    <div class="image-card" *ngFor="let item of diagnosticImages" (click)="goToDetails(item.id, item.name)">
+      <img [src]="item.src" [alt]="item.name">
+      <div class="image-name">{{ item.name }}</div>
+      <div class="hover-text">{{ item.name }}</div>
+    </div>
+  </div>
+
+  <h2 class="font">Ahora reconoce los medicamentos</h2>
+  <div class="medication-grid">
+    <div class="image-card" *ngFor="let item of medicationImages" (click)="goToMedicationDetails(item.id, item.name)">
+  <img [src]="item.src" [alt]="item.name">
+  <div class="image-name">{{ item.name }}</div>
+  <div class="hover-text">{{ item.name }}</div>
+</div>
+
+  </div>
+</section>

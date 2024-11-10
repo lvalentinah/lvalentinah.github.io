@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+}
+.title {
+  text-align: center;
+  flex-grow: 1;
+}
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+.right-image {
+  width: 80px; /* Tamaño de la imagen de la derecha */
+  height: 80px;
+}

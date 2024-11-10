@@ -1,0 +1,64 @@
+.main-content {
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #4caf50;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.image-card {
+  position: relative;
+  cursor: pointer;
+}
+
+.image-card img {
+  width: 100%; /* Ajusta la imagen al ancho del contenedor */
+  height: 150px; /* Altura fija para todas las imágenes */
+  object-fit: cover; /* Asegura que la imagen se recorte sin deformarse */
+  border-radius: 8px; /* Opcional: bordes redondeados */
+  transition: transform 0.3s ease;
+}
+
+.image-card:hover img {
+  transform: scale(1.05); /* Ampliar imagen en hover */
+}
+
+.hover-text {
+  position: absolute;
+  top: 50%; /* Posiciona al centro verticalmente */
+  left: 50%; /* Posiciona al centro horizontalmente */
+  transform: translate(-50%, -50%); /* Centra el texto exactamente */
+  background: rgba(0, 0, 0, 0.7); /* Fondo oscuro semitransparente */
+  color: white; /* Color del texto */
+  padding: 10px 15px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados opcionales */
+  font-size: 1rem; /* Tamaño del texto */
+  opacity: 0; /* Ocultar por defecto */
+  transition: opacity 0.3s ease; /* Suavizar la aparición */
+}
+
+.image-card:hover .hover-text {
+  opacity: 1; /* Mostrar en hover */
+}
+
+.medication-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Dos columnas */
+  gap: 15px; /* Espaciado entre imágenes */
+  margin: 20px 0;
+}
+
+.font{
+  text-align: left;
+  margin-left: 20px; /* Opcional, ajusta el margen si quieres separarlo del borde */
+  font-size: 1.2rem; /* Tamaño de letra ajustable */
+  color: #2d572c; /* Color de texto */
+}
