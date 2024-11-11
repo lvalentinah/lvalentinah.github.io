@@ -184,7 +184,53 @@ export class MainContentComponent {
         <strong>Efectos Adversos Frecuentes:</strong> Náuseas y vómitos, Prurito, Dolor abdominal<br>
         <strong>Efectos Adversos Graves:</strong> Plaquetopenia, Hipotensión ortostática, Eritema multiforme
       `
+    },
+    {
+      id: 15,
+      name: 'Diltiazem',
+      src: 'assets/diltiazem.jpg',
+      description: `
+        <strong>Grupo Farmacológico:</strong> Bloqueadores de los canales de calcio<br>
+        <strong>Indicaciones:</strong> Tratamiento de hipertensión y arritmias <br>
+        <strong>Descripción:</strong><br>
+        - Nombre comercial: Cardizem (No tiene registro sanitario vigente) <br>
+        - Forma farmacéutica: Tabletas<br>
+        - Concentración: 30 mg, 60 mg, 120 mg<br>
+        - Vía de administración: Oral<br>
+        <strong>Posología:</strong> 30 mg a 120 mg una vez al día <br>
+        <strong>Efectos Adversos Frecuentes:</strong> Edema, mareos, dolor de cabeza <br>
+        <strong>Efectos Adversos Graves:</strong> Necrólisis epidérmica tóxica,
+Insuficiencia cardíaca congestiva,
+Anemia hemolítica,
+
+      `
+    },
+    {
+      id: 16,
+      name: 'Levotiroxina',
+      src: 'assets/levotiroxina.jpg',
+      description: `
+        <strong>Grupo Farmacológico:</strong> Hormonas tiroideas<br>
+        <strong>Indicaciones:</strong> Tratamiento del hipotiroidismo <br>
+        <strong>Descripción:</strong><br>
+        - Nombre comercial: Euthyrox<br>
+        - Forma farmacéutica: Tabletas<br>
+        - Concentración: 25 mcg, 50 mcg, 100 mcg
+<br>
+        - Vía de administración: Oral<br>
+        <strong>Posología:</strong>25 mcg a 200 mcg una vez al día
+<br>
+        <strong>Efectos Adversos Frecuentes:</strong> Angina de pecho,
+Insuficiencia cardiaca congestiva,
+Artralgia
+<br>
+        <strong>Efectos Adversos Graves:</strong> Debilidad muscular,
+Rash,
+Alopecia
+
+      `
     }
+
   ];
 
 
